@@ -1,0 +1,73 @@
+/* Navigation Bar */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: .9rem;
+    padding: 0px 5px;
+    margin: 4px;
+}
+
+/* Home */
+#home{
+    height: 310px;
+    padding: 0px 10px;
+    flex-direction: column;
+}
+#home p{
+    font-size: 13px;
+}
+#home::before{
+    padding: 0px;
+    height: 380px;
+}
+
+/* Services */
+#services{
+    flex-direction: column;
+}
+
+
+/* Clients */
+#clients{
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+#client-section::before{
+    height: 950px;
+}
+
+
+/* Contact US */
+#contact{
+    margin-top: 649px;
+}
+#contact form{
+    width: 75%;
+}
+#contact-box label{
+    font-size: 1.1rem;
+}
+#contact input, #contact textarea{
+    padding: 0.2rem;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    font-size: 1rem;
+    width: 100%;
+    font-family: 'Dancing Script';
+}
+footer{
+    font-size: .7rem;
+    text-align: center;
+    padding: 5px 10px;
+    height: 100px;
+}
+/* Utility Classes */
+.h-primary{
+    font-size: 30px;
+}
+.btn{
+    margin-top: 39px;
+}
